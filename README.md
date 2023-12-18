@@ -74,22 +74,5 @@ Assignment work distribution:
 	This assignment was written without a team, so all the work was done by me. In addition to that, where cited, some of the code and testing data was written with the help of Chat GPT. 
 
 Testing: 
-	To test the program, in the main.py insert following lists/dicts instead of the empty ones: 
-flights = [(0, "New York", "Los Angeles", "2023-10-15 08:00", "2023-10-15 11:00", 50, 0), (1, "Miami", "Chicago", "2023-10-15 12:30", "2023-10-15 15:30", 30, 70), (2, "Miami", "New York", "2023-10-15 16:45", "2023-10-15 19:45", 40, 60), (3, "San Francisco", "Los Angeles", "2023-10-15 09:15", "2023-10-15 10:45", 20, 80), (4, "Miami", "London", "2023-10-15 14:00", "2023-10-15 20:00", 75, 25), (5, "Los Angeles", "New York", "2023-10-15 10:30", "2023-10-15 13:30", 35, 65), (6, "Chicago", "San Francisco", "2023-10-15 17:30", "2023-10-15 20:15", 25, 75), (7, "New York", "Chicago", "2023-10-15 14:45", "2023-10-15 17:15", 45, 55), (8, "Los Angeles", "San Francisco", "2023-10-15 11:20", "2023-10-15 12:50", 15, 85), (9, "Chicago", "New York", "2023-10-15 19:15", "2023-10-15 22:15", 60, 40), (10, "San Francisco", "Los Angeles", "2023-10-15 08:30", "2023-10-15 10:00", 10, 90), (11, "Miami", "Paris", "2023-10-15 13:30", "2023-10-15 19:30", 70, 30), (12, "Miami", "New York", "2023-10-15 10:00", "2023-10-15 13:00", 40, 60),(13, "Chicago", "San Francisco", "2023-10-15 18:00", "2023-10-15 20:45", 30, 70), (14, "New York", "Chicago", "2023-10-15 15:15", "2023-10-15 17:45", 50, 50), (15, "Los Angeles", "San Francisco", "2023-10-15 12:45", "2023-10-15 14:15", 20, 80), (16, "Chicago", "New York", "2023-10-15 20:00", "2023-10-15 23:00", 55, 45), (17, "San Francisco", "Los Angeles", "2023-10-15 09:45", "2023-10-15 11:15", 25, 75), (18, "Miami", "Tokyo", "2023-10-15 15:45", "2023-10-15 23:45", 80, 20), (19, "New York", "Los Angeles", "2023-10-15 13:30", "2023-10-15 16:30", 60, 40), (20, "Los Angeles", "Chicago", "2023-10-15 11:00", "2023-10-15 14:00", 35, 65), (21, "Chicago", "San Francisco", "2023-10-15 19:30", "2023-10-15 22:15", 45, 55), (22, "San Francisco", "Los Angeles", "2023-10-15 10:15", "2023-10-15 11:45", 15, 85), (23, "Miami", "Dubai", "2023-10-15 16:30", "2023-10-15 23:30", 70, 30),(24, "Los Angeles", "New York", "2023-10-15 12:15", "2023-10-15 15:15", 50, 50)]
-waitlists = {0:[2, 6, 7]}
-feedback = {
-    0: [5, "I am very happy with this flight. The service was excellent!"],
-    1: [4, "Great flight overall, no complaints."],
-    2: [5, "The crew was friendly and professional."],
-    3: [2, "My luggage was damaged during the flight."],
-    4: [3, "The flight was delayed, and it caused me some inconvenience."],
-    5: [4, "I had a comfortable journey, and the food was good."],
-    6: [4, "The in-flight entertainment options were impressive."],
-    7: [2, "The seats were uncomfortable and cramped."],
-    8: [2, "The flight attendants were not very helpful."],
-    9: [5, "Smooth takeoff and landing. I enjoyed my flight."]
-    }
-user = {'user_id':5, 'name':'Gulnur', 'surname':'Adanbekova'}
-
-	To test the program, execute main.py in the terminal window. 
+	To test the program, execute main.py in the terminal window. Test data is provided in the code
 
